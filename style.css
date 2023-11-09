@@ -98,14 +98,14 @@
      display: flex;
      justify-content: center;
      text-align: center;
-     
+
  }
 
  /*Calorias*/
- #calorias{
-    font-size: 2em;
-    font-weight: 700;
-    color: #cc470d;
+ #calorias {
+     font-size: 2em;
+     font-weight: 700;
+     color: #cc470d;
  }
 
 
@@ -118,7 +118,7 @@
      margin-left: 80px;
      animation: pulsar 0.7s infinite alternate;
      z-index: -1;
-   
+
  }
 
  .quadrado {
@@ -145,12 +145,12 @@
  .Left {
      left: 50%;
  }
- 
+
  #freq {
-    position: absolute;
-    padding-left: 40px;
-    color: #000;
-   
+     position: absolute;
+     padding-left: 40px;
+     color: #000;
+
  }
 
  /*Animação CSS*/
@@ -162,17 +162,18 @@
      100% {
          transform: scale(1.15) rotate(-135deg);
      }
- 
-}
-    /* rotacionar tela */
-@media screen and (min-width: 576px) and (max-width: 992px) and (orientation: landscape) {
-    html {
-      transform: rotate(-90deg);
-      transform-origin: left top;
-      width: 100vh;
-      overflow-x: hidden;
-      position: absolute;
-      top: 100%;
-      left: 0;
-    }
-  }
+
+ }
+
+ /* rotacionar tela */
+ @media screen and (min-width: 576px) and (max-width: 992px) and (orientation: landscape) {
+     html {
+         transform: rotate(-90deg);
+         transform-origin: left top;
+         width: 100vh;
+         overflow-x: hidden;
+         position: absolute;
+         top: 100%;
+         left: 0;
+     }
+ }
