@@ -145,10 +145,12 @@
  .Left {
      left: 50%;
  }
+ 
  #freq {
     position: absolute;
     padding-left: 40px;
-    color: #fff;
+    color: #000;
+   
  }
 
  /*Animação CSS*/
